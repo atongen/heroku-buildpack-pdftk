@@ -1,3 +1,10 @@
+## v42 (2014/02/16)
+
+Features:
+
+* Update for use with heroku-buildpack-multi
+* Remove ruby language buildpack
+
 ## v41 (11/1/2012)
 
 Features:
