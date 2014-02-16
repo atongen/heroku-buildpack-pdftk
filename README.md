@@ -19,7 +19,9 @@ How to install:
 
 6) Add config vars to heroku like so
 
-	heroku config:set \
-  PDFTK_SOURCE_URL=[pdftk source url from step 3] \
-	PATH=[your current PATH var]:/app/vendor/pdftk/bin \
-	LD_LIBRARY_PATH=[your current LD_LIBRARY_PATH var (if you have set before)]:/app/vendor/pdftk/lib
+```bash
+heroku config:set \
+PDFTK_SOURCE_URL=[pdftk source url from step 3] \
+PATH=[your current PATH var]:/app/vendor/pdftk/bin \
+LD_LIBRARY_PATH=[your current LD_LIBRARY_PATH var (if you have set before)]:/app/vendor/pdftk/lib
+```
