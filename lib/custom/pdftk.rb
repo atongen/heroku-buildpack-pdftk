@@ -9,7 +9,7 @@ class Pdftk < BaseCustom
   end
 
   def source_url
-    ENV['PDFTK_SOURCE_URL']
+    "http://s3.amazonaws.com/CHANGE-TO-YOUR-BUCKET/pdftk.tar.gz"
   end
 
   def used?
